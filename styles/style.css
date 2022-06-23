@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 @font-face {
   font-family: 'Product Sans';
   font-display: swap;
@@ -1288,48 +1288,155 @@ body {
   backdrop-filter: blur(10px);
 }
 
-.icon-bar {
-  position: fixed;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
-.icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 16px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 20px;
+#social-platforms {
+  position:relative;
+  top:100px;
+  top:25vh;
+  font-size:1rem;
+  text-align:center;
+  height:250px;
+  overflow:hidden;
 }
 
-.icon-bar a:hover {
-  background-color: #000;
+/*Pen code from this point on*/
+.btn {
+  clear:both;
+  white-space:nowrap;
+  font-size:.8em;
+  display:inline-block;
+  border-radius:5px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.35);
+  margin:2px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+  overflow:hidden
 }
 
-.facebook {
-  background: #3B5998;
-  color: white;
+.btn:hover {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.45);
 }
 
-.twitter {
-  background: #55ACEE;
-  color: white;
+.btn:focus {
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4);
 }
 
-.google {
-  background: #dd4b39;
-  color: white;
+.btn > span,.btn-icon > i {
+  float:left;
+  padding:13px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+  line-height:1em
 }
 
-.linkedin {
-  background: #007bb5;
-  color: white;
+.btn > span {
+  padding:14px 18px 16px;
+  white-space:nowrap;
+  color:#FFF;
+  background:#b8b8b8
 }
 
-.youtube {
-  background: #bb0000;
-  color: white;
+.btn:focus > span {
+  background:#9a9a9a
+}
+
+.btn-icon > i {
+  border-radius:5px 0 0 5px;
+  position:relative;
+  width:13px;
+  text-align:center;
+  font-size:1.25em;
+  color:#fff;
+  background:#212121
+}
+
+.btn-icon > i:after {
+  content:"";
+  border:8px solid;
+  border-color:transparent transparent transparent #222;
+  position:absolute;
+  top:13px;
+  right:-15px
+}
+
+.btn-icon:hover > i,.btn-icon:focus > i {
+  color:#FFF
+}
+
+.btn-icon > span {
+  border-radius:0 5px 5px 0
+}
+
+/*Facebook*/
+.btn-facebook:hover > i,.btn-facebook:focus > i {
+  color:#3b5998
+}
+
+.btn-facebook > span {
+  background:#3b5998
+}
+
+/*Twitter*/
+.btn-twitter:hover > i,.btn-twitter:focus > i {
+  color:#55acee
+}
+
+.btn-twitter > span {
+  background:#55acee
+}
+
+/*Google*/
+.btn-googleplus:hover > i,.btn-googleplus:focus > i {
+  color:#dd4b39
+}
+
+.btn-googleplus > span {
+  background:#dd4b39
+}
+
+/*Pinterest*/
+.btn-pinterest:hover > i,.btn-pinterest:focus > i {
+  color:#cb2028
+}
+
+.btn-pinterest > span {
+  background:#cb2028
+}
+
+/*LinkedIn*/
+.btn-linkedin:hover > i,.btn-linkedin:focus > i {
+  color:#007bb6
+}
+
+.btn-linkedin > span {
+  background:#007bb6
+}
+/*Google*/
+.btn-googleplus:hover > i,.btn-googleplus:focus > i {
+  color:#dd4b39
+}
+
+.btn-googleplus > span {
+  background:#dd4b39
+}
+
+/*Pinterest*/
+.btn-pinterest:hover > i,.btn-pinterest:focus > i {
+  color:#cb2028
+}
+
+.btn-pinterest > span {
+  background:#cb2028
+}
+
+/*LinkedIn*/
+.btn-linkedin:hover > i,.btn-linkedin:focus > i {
+  color:#007bb6
+}
+
+.btn-linkedin > span {
+  background:#007bb6
 }
