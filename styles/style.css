@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
 @font-face {
   font-family: 'Product Sans';
   font-display: swap;
