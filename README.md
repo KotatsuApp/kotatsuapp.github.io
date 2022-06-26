@@ -1,6 +1,6 @@
 <div>
 	<p align="center">
-		<img src="./img/icon256.png" height="100px">
+		<img src="./img/icon_256.png" height="100px">
 	</p>
 	<h1 align="center">Kotatsu Website</h1>
 	<p align="center">
