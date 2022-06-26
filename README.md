@@ -2,7 +2,9 @@
 	<p align="center">
 		<img src="./img/icon_256.png" height="100px">
 	</p>
-	<h1 align="center">Kotatsu Website</h1>
+	<h1 align="center">
+        <a href="https://kotatsuapp.github.io">Kotatsu Website</a>
+    </h1>
 	<p align="center">
 		<a href="https://discord.gg/NNJ5RgVBC5">
 			<img src="https://img.shields.io/discord/898363402467045416?color=5865f2&label=discord" alt="Discord">
